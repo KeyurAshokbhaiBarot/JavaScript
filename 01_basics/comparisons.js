@@ -11,7 +11,7 @@
 // console.log(undefined == 0);
 // console.log(undefined > 0);
 
-// strict check ===
+// strict check === checks data types are same or not
 
 
 
