@@ -1,0 +1,23 @@
+/* 
+
+# Primitive
+    7 types : String, Number, Boolean, null, undefined, Symbol, BigInt
+
+# Reference type (Non primitive)
+
+    Array, Objects, Functions
+
+# JavaScript is a dynamic language and not static, which means that variables can hold values of different types during runtime. Unlike languages such as Typescript or Java, you don't need to declare the data type of a variable explicitly.
+
+
+*/
+
+//Symbol
+const id = Symbol('123')
+const anotherId = Symbol('123')
+
+console.log(id === anotherId)
+
+const myFunction = function(){
+    console.log("Hello World");
+}
